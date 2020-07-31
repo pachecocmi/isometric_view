@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="Spatial" type="CSGBox"]
+transform = Transform( 0.189334, 0, 0, 0, 2.82234, 0, 0, 0, 0.225293, 0, 0, 0 )
+use_collision = true
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 5.28168, 0, 0, 0, 0.354316, 0, 0, 0, 4.43867, 0, 1.16985, 0 )
+light_energy = 1.52
+omni_range = 12.2
